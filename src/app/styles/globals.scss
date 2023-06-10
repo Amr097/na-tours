@@ -9,9 +9,11 @@
 @import "base/typography";
 
 @import "components/btn";
+@import "components/composition";
 @import "layout/header";
 @import "layout/row";
 @import "pages/home";
+
 
 html {
   font-size: 62.5%;
