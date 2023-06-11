@@ -3,3 +3,22 @@
   padding: 25rem;
   margin-top: -19%;
 }
+
+.section__features {
+  padding: 20rem;
+  background: linear-gradient(
+      to right bottom,
+      $light-green-opacity,
+      $dark-green-opacity
+    ),
+    url(/img/nat-4.jpg);
+
+  //   clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+
+  transform: skewY(-7deg);
+  margin-top: -10rem;
+
+  & > * {
+    transform: skewY(7deg);
+  }
+}

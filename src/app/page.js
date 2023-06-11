@@ -1,7 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
-import Header from "@/Header/Header";
-import About from "@/About/About";
+import Header from "@/Sections/Header/Header";
+import About from "@/Sections/About/About";
+import Features from "@/Sections/Features/Features";
 
 export const metadata = {
   title: "NA Tours",
@@ -28,7 +29,10 @@ export default function Home() {
   return (
     <>
       <Header inView={inView} />
-      <About />
+      <main>
+        <About />
+        <Features />
+      </main>
     </>
   );
 }
