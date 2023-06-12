@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Header from "@/Sections/Header/Header";
 import About from "@/Sections/About/About";
 import Features from "@/Sections/Features/Features";
+import Tours from "@/Sections/Tours/Tours";
 
 export const metadata = {
   title: "NA Tours",
@@ -32,6 +33,7 @@ export default function Home() {
       <main>
         <About />
         <Features />
+        <Tours />
       </main>
     </>
   );

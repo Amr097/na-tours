@@ -1,11 +1,43 @@
 $gray: #777;
 $gray-light: #f7f7f7;
+
 $white: #fff;
+
+$color-orange-light: #ffb900;
+$color-orange: #ff7730;
+$color-blue-light: #2998ff;
+$color-blue-dark: #5643fa;
+
 $light-green: #7ed56f;
 $dark-green: #28b485;
 $light-green-opacity: #7ed56fd6;
 $dark-green-opacity: #28b485da;
+$light-green-opacity-low: #7ed56f64;
+$dark-green-opacity-low: #28b48555;
 $black-opacity: rgba(0, 0, 0, 0.2);
+$gradient-green: linear-gradient(
+  to right bottom,
+  $light-green-opacity,
+  $dark-green-opacity
+);
+
+$gradient-green-opacity: linear-gradient(
+  to right bottom,
+  $light-green-opacity-low,
+  $dark-green-opacity-low
+);
+
+$gradient-orange: linear-gradient(
+  to right bottom,
+  $color-orange-light,
+  $color-orange
+);
+
+$gradient-orange-opacity: linear-gradient(
+  to right bottom,
+  #ffbb00b7,
+  #ff7830bc
+);
 
 $margin-gap: 2.5rem;
 
@@ -14,3 +46,5 @@ $gutter-vertical: 8rem;
 $gutter-horizontal: 5rem;
 
 $default-font-size: 1.6rem;
+
+$box-shadow-default: 0 1rem 4rem rgba(rgb(0, 0, 0), 0.15);

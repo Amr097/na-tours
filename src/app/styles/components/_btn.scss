@@ -16,12 +16,19 @@
     color: $gray;
   }
 
-  &--white:hover {
+  &--green {
+    background: $gradient-green;
+    color: white;
+  }
+
+  &--white:hover,
+  &--green:hover {
     transform: translateY(-3px);
     box-shadow: 0 1rem 2rem $black-opacity;
   }
 
-  &--white:active {
+  &--white:active,
+  &--green:active {
     transform: translateY(-1px);
     box-shadow: 0 0.5rem 1rem $black-opacity;
   }
@@ -41,6 +48,10 @@
 
   &--white::after {
     background-color: $white;
+  }
+
+  &--green::after {
+    background: $gradient-green;
   }
 
   &:hover::after {
