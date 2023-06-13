@@ -61,6 +61,7 @@
 }
 
 .btn-text {
+  z-index: 2;
   &:link,
   &:visited {
     font-size: $default-font-size;

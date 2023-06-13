@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.u-margin-top-big {
+  margin-top: 8rem;
+}
+
+.u-margin-top-huge {
+  margin-top: 10rem;
+}
+
 .u-margin-bottom-big {
   margin-bottom: 8rem;
 }
@@ -20,4 +28,8 @@
 
 .u-p-skew-7 {
   transform: skewY(7deg);
+}
+
+.u-btn-padding {
+  padding: 1rem;
 }

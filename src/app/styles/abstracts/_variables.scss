@@ -5,26 +5,37 @@ $white: #fff;
 
 $color-orange-light: #ffb900;
 $color-orange: #ff7730;
-$color-blue-light: #2998ff;
-$color-blue-dark: #5643fa;
+$blue-light: #2998ff;
+$blue-dark: #5643fa;
+$blue-light-opacity: #2998ffa2;
+$blue-dark-opacity: #5543faa4;
 
 $light-green: #7ed56f;
 $dark-green: #28b485;
 $light-green-opacity: #7ed56fd6;
 $dark-green-opacity: #28b485da;
-$light-green-opacity-low: #7ed56f64;
-$dark-green-opacity-low: #28b48555;
+$light-green-opacity-low: #7ed56f2a;
+$dark-green-opacity-low: #28b48529;
 $black-opacity: rgba(0, 0, 0, 0.2);
-$gradient-green: linear-gradient(
+
+$gradient-blue-opacity: linear-gradient(
   to right bottom,
-  $light-green-opacity,
-  $dark-green-opacity
+  $blue-light-opacity,
+  $blue-dark-opacity
 );
+
+$gradient-blue: linear-gradient(to right bottom, $blue-light, $blue-dark);
 
 $gradient-green-opacity: linear-gradient(
   to right bottom,
   $light-green-opacity-low,
   $dark-green-opacity-low
+);
+
+$gradient-green: linear-gradient(
+  to right bottom,
+  $light-green-opacity,
+  $dark-green-opacity
 );
 
 $gradient-orange: linear-gradient(

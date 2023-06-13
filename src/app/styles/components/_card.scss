@@ -10,7 +10,7 @@
     top: 0;
     left: 0;
     height: 100%;
-    border-radius: 3px;
+    border-radius: 4px;
     overflow: hidden;
     backface-visibility: hidden;
     box-shadow: $box-shadow-default;
@@ -24,9 +24,16 @@
       transform: rotateY(-180deg);
       width: 100%;
       top: 0;
+      position: relative;
 
       &-1 {
         background: $gradient-orange;
+      }
+      &-2 {
+        background: $gradient-green;
+      }
+      &-3 {
+        background: $gradient-blue;
       }
     }
   }
@@ -37,7 +44,7 @@
     transform: rotateY(0);
   }
 
-  //styles
+  //card-front-styles
   &__picture {
     background-size: cover;
     height: 25rem;
@@ -48,10 +55,10 @@
       background-image: $gradient-orange-opacity, url(/img/nat-5.jpg);
     }
     &--2 {
-      background-image: $gradient-orange-opacity, url(/img/nat-6.jpg);
+      background-image: $gradient-green-opacity, url(/img/nat-6.jpg);
     }
     &--3 {
-      background-image: $gradient-orange-opacity, url(/img/nat-7.jpg);
+      background-image: $gradient-blue-opacity, url(/img/nat-7.jpg);
     }
   }
 
@@ -73,6 +80,12 @@
     &--1 {
       background-image: $gradient-orange-opacity;
     }
+    &--2 {
+      background-image: $gradient-green-opacity;
+    }
+    &--3 {
+      background-image: $gradient-blue-opacity;
+    }
   }
 
   &__details {
@@ -90,5 +103,23 @@
         }
       }
     }
+  }
+
+  //card-back-styles
+  &__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: white;
+  }
+  &__price-only {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  &__price-value {
+    font-size: 5rem;
+    font-weight: 100;
   }
 }
