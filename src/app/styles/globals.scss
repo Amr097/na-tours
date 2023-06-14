@@ -14,11 +14,11 @@
 @import "components/card";
 @import "components/review";
 @import "components/video";
+@import "components/form";
 
 @import "layout/header";
 @import "layout/row";
 @import "pages/home";
-
 
 html {
   font-size: 62.5%;
@@ -39,6 +39,9 @@ body {
   color: $gray;
   padding: 3rem;
   box-sizing: border-box;
+}
+button {
+  border: none;
 }
 
 //btns

@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.u-margin-left {
+  margin-left: 6rem;
+}
+
 .u-margin-top-big {
   margin-top: 8rem;
 }
@@ -12,6 +16,10 @@
 
 .u-margin-bottom-big {
   margin-bottom: 8rem;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 5rem;
 }
 
 .u-padding-top-big {
@@ -32,4 +40,8 @@
 
 .u-btn-padding {
   padding: 1rem;
+}
+
+.u-margin-top-small {
+  margin-top: 1.5rem !important;
 }

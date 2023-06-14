@@ -26,10 +26,16 @@ $gradient-blue-opacity: linear-gradient(
 
 $gradient-blue: linear-gradient(to right bottom, $blue-light, $blue-dark);
 
-$gradient-green-opacity: linear-gradient(
+$gradient-green-opacity-low: linear-gradient(
   to right bottom,
   $light-green-opacity-low,
   $dark-green-opacity-low
+);
+
+$gradient-green-opacity: linear-gradient(
+  to right bottom,
+  $light-green-opacity,
+  $dark-green-opacity
 );
 
 $gradient-green: linear-gradient(

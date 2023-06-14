@@ -37,3 +37,27 @@
   padding: 15rem 0;
   position: relative;
 }
+
+.section-booking {
+  padding: 15rem 0;
+  background: $gradient-green;
+}
+
+.book {
+  background: linear-gradient(
+      105deg,
+      rgba(255, 255, 255, 0.919) 0%,
+      rgba(255, 255, 255, 0.901) 50%,
+      transparent 50%
+    ),
+    url(/img/nat-10.jpg);
+  background-size: 100%;
+  border-radius: 3px;
+  box-shadow: $box-shadow-default;
+  height: 50rem;
+
+  &__form {
+    width: 50%;
+    padding: 6rem;
+  }
+}

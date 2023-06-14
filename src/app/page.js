@@ -5,6 +5,7 @@ import About from "@/Sections/About/About";
 import Features from "@/Sections/Features/Features";
 import Tours from "@/Sections/Tours/Tours";
 import Reviews from "@/Sections/Reviews/Reviews";
+import Booking from "@/Sections/Booking/Booking";
 
 export const metadata = {
   title: "NA Tours",
@@ -36,6 +37,7 @@ export default function Home() {
         <Features />
         <Tours />
         <Reviews />
+        <Booking />
       </main>
     </>
   );
