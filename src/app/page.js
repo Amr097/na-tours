@@ -1,11 +1,13 @@
 "use client";
 import { useEffect, useState } from "react";
-import Header from "@/Sections/Header/Header";
+import Header from "@/Partials/Header/Header";
 import About from "@/Sections/About/About";
 import Features from "@/Sections/Features/Features";
 import Tours from "@/Sections/Tours/Tours";
 import Reviews from "@/Sections/Reviews/Reviews";
 import Booking from "@/Sections/Booking/Booking";
+import Footer from "@/Partials/Footer/Footer";
+import Navigation from "@/Partials/Navigation/Navigation";
 
 export const metadata = {
   title: "NA Tours",
@@ -31,6 +33,7 @@ export default function Home() {
   }, []);
   return (
     <>
+      <Navigation />
       <Header inView={inView} />
       <main>
         <About />
@@ -39,6 +42,7 @@ export default function Home() {
         <Reviews />
         <Booking />
       </main>
+      <Footer />
     </>
   );
 }

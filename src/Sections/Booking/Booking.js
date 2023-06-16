@@ -2,7 +2,7 @@ import React from "react";
 
 const Booking = () => {
   return (
-    <section className="section-booking">
+    <section id="booking" className="section-booking">
       <div className="row">
         <div className="book">
           <div className="book__form">

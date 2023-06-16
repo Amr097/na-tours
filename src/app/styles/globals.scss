@@ -16,8 +16,11 @@
 @import "components/video";
 @import "components/form";
 
+@import "layout/footer";
 @import "layout/header";
 @import "layout/row";
+@import "layout/navigation";
+
 @import "pages/home";
 
 html {

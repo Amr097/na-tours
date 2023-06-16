@@ -44,6 +44,8 @@ $gradient-green: linear-gradient(
   $dark-green-opacity
 );
 
+$gradient-default: linear-gradient(to right bottom, $light-green, $dark-green);
+
 $gradient-orange: linear-gradient(
   to right bottom,
   $color-orange-light,
