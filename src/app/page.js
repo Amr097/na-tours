@@ -9,11 +9,6 @@ import Booking from "@/Sections/Booking/Booking";
 import Footer from "@/Partials/Footer/Footer";
 import Navigation from "@/Partials/Navigation/Navigation";
 
-export const metadata = {
-  title: "NA Tours",
-  description: "...",
-};
-
 export default function Home() {
   const [inView, setInView] = useState();
   useEffect(() => {
