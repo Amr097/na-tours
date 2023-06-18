@@ -3,6 +3,14 @@
   background-color: rgb(39, 35, 35);
   font-size: 1.3rem;
 
+  @include respronse(phone) {
+    padding: 5rem 0 8rem;
+  }
+
+  @include respronse(tab-port) {
+    padding: 8rem 14rem;
+  }
+
   &__logo-box {
     text-align: center;
   }
@@ -13,6 +21,12 @@
     border-top: solid 2px rgb(152, 149, 149);
     padding-top: 2rem;
     display: inline-block;
+
+    @include respronse(tab-port) {
+      text-align: center;
+      margin-bottom: 4rem;
+      width: 100%;
+    }
   }
 
   &__list {
@@ -51,5 +65,14 @@
     color: $gray-light;
     width: 85%;
     float: right;
+
+    @include respronse(phone) {
+      float: left;
+    }
+    @include respronse(tab-port) {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
   }
 }

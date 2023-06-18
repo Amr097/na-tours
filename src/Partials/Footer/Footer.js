@@ -46,7 +46,7 @@ const Footer = () => {
             </a>
             Practicing CSS
             <a href="" className="footer__link">
-              &nbsp; Advanced CSS animations&nbsp;
+              &nbsp; Advanced CSS and Sass Course by Jonas Schmedtmann&nbsp;
             </a>
           </p>
         </div>

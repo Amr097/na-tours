@@ -8,7 +8,7 @@ const About = () => {
           Exciting tours for adventurous people
         </h2>
       </div>
-      <div className="row">
+      <div className="row  section-about__heading--m">
         <div className="col-1-of-2">
           <h3 className="heading-tertiary u-margin-bottom-small">
             You're going to fall in love with nature

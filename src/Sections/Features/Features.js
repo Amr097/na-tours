@@ -3,9 +3,9 @@ import React from "react";
 const Features = () => {
   return (
     <section id="features" className="section__features">
-      <div className="row">
+      <div className="row  mobile-width">
         <div className="col-1-of-4">
-          <div className="feature__box">
+          <div className="feature__box mobile-margin--u">
             <i className="feature__box-icon icon-basic-world"></i>
             <h3 className="heading-tertiary u-margin-bottom-small">
               Explore The World

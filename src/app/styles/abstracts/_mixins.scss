@@ -5,3 +5,48 @@
     clear: both;
   }
 }
+
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+}
+
+@mixin absCenterLowScale {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.3);
+  border-radius: 50%;
+}
+
+//breakpoints: phone, tab-port, tab-land, big-desktop
+
+@mixin respronse($sreen-size) {
+  @if ($sreen-size == phone) {
+    @media screen and (width <= 41.5em) {
+      //600px
+      @content;
+    }
+  }
+  @if ($sreen-size == tab-port) {
+    @media screen and (41.5em < width <= 61em) {
+      //900px
+      @content;
+    }
+  }
+  @if ($sreen-size == tab-land) {
+    @media screen and (61em < width <= 75em) {
+      //1200px
+      @content;
+    }
+  }
+  @if ($sreen-size == big-desktop) {
+    @media screen and (width > 121em) {
+      //2000px
+      @content;
+    }
+  }
+}

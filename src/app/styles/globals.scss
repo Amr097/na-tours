@@ -7,6 +7,7 @@
 @import "base/base";
 @import "base/animations";
 @import "base/typography";
+@import "base/queries";
 
 @import "components/btn";
 @import "components/composition";
@@ -15,6 +16,7 @@
 @import "components/review";
 @import "components/video";
 @import "components/form";
+@import "components/popup";
 
 @import "layout/footer";
 @import "layout/header";
@@ -25,7 +27,21 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
+  @include respronse(phone) {
+    font-size: 45%;
+  }
+  @include respronse(tab-land) {
+    font-size: 50%;
+  }
+  @include respronse(tab-port) {
+    font-size: 50%;
+  }
+  @include respronse(big-desktop) {
+    font-size: 100%;
+  }
 }
+
 *,
 *::after,
 *::before {
@@ -42,9 +58,20 @@ body {
   color: $gray;
   padding: 3rem;
   box-sizing: border-box;
+
+  @include respronse(phone) {
+    padding: 0;
+  }
 }
 button {
   border: none;
 }
+a {
+  text-decoration: none;
+  color: $gray;
+}
 
+main {
+  background-color: $gray-light;
+}
 //btns

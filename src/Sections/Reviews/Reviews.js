@@ -10,7 +10,7 @@ const Reviews = () => {
         </video>
       </div>
 
-      <div className="u-center-text u-margin-bottom-big u-padding-top-big">
+      <div className="u-center-text u-margin-bottom-big u-padding-top-medium">
         <h2 className="heading-secondary">we make people geniunely happy</h2>
       </div>
       <div className="row">

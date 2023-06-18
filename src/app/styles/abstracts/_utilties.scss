@@ -3,7 +3,11 @@
 }
 
 .u-margin-left {
-  margin-left: 6rem;
+  margin-left: 6rem !important;
+}
+
+.u-margin-top-medium {
+  margin-top: 3.1rem !important;
 }
 
 .u-margin-top-big {
@@ -11,19 +15,37 @@
 }
 
 .u-margin-top-huge {
-  margin-top: 10rem;
+  margin-top: 10rem !important;
 }
 
+.u-margin-top-special {
+  margin-top: 20rem !important;
+}
+
+.u-margin-top-tiny {
+  margin-top: 1.5rem !important;
+}
 .u-margin-bottom-big {
   margin-bottom: 8rem;
 }
 
 .u-margin-bottom-medium {
-  margin-bottom: 5rem !important;
+  margin-bottom: 6rem !important;
+}
+
+.u-margin-bottom-tiny {
+  margin-bottom: 1rem !important;
 }
 
 .u-padding-top-big {
   padding-top: 8rem;
+}
+.u-padding-top-medium {
+  padding-top: 4rem;
+}
+
+.u-padding-top-special {
+  padding-top: 14rem;
 }
 
 .u-margin-bottom-small {

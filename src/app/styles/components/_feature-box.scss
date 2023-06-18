@@ -6,6 +6,9 @@
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba($black-opacity, 0.15);
   transition: all 0.2s;
+  @media screen and (56.25em < width <= 71.8125em) {
+    height: 40rem;
+  }
 
   &-icon {
     font-size: 6rem;
@@ -19,5 +22,23 @@
     scale: 1.03;
     box-shadow: 0 5px 5px 6px rgba(97, 96, 96, 0.16);
     transform: translateY(-1rem);
+  }
+}
+
+@include respronse(phone) {
+  .mobile-margin--u {
+    margin-top: 3rem;
+  }
+  .mobile-width {
+    max-width: 34rem !important;
+  }
+}
+
+@include respronse(tab-port) {
+  .mobile-margin--u {
+    margin-top: 3rem;
+  }
+  .mobile-width {
+    max-width: 65rem !important;
   }
 }

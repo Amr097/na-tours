@@ -1,27 +1,78 @@
 .composition {
   position: relative;
+  padding-bottom: 2rem;
+
+  @include respronse(phone) {
+    // position: static;
+  }
+  @include respronse(tab-port) {
+    position: static;
+  }
+
   &__photo {
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.407);
-    border-radius: 10px 40px 20px;
     position: absolute;
     z-index: 10;
     transition: all 0.2s;
     outline-offset: 2rem;
 
+    @include respronse(phone) {
+      float: left;
+      position: relative;
+      width: 33.3333333%;
+
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.407);
+    }
+    @include respronse(tab-port) {
+      width: 25%;
+      object-fit: contain;
+    }
+
     &--p1 {
-      left: 0;
-      top: -2rem;
+      left: 12%;
+      top: 3rem;
+
+      @include respronse(phone) {
+        top: 0;
+        left: 0;
+        transform: translateY(2px);
+      }
+      @include respronse(tab-port) {
+        top: 28%;
+        left: 69%;
+      }
     }
 
     &--p2 {
-      right: 0;
-      top: 2rem;
+      right: -12%;
+      top: 4rem;
+
+      @include respronse(phone) {
+        top: 0;
+        left: 0;
+        transform: scaleX(1.1);
+        z-index: 11;
+      }
+      @include respronse(tab-port) {
+        top: 35%;
+        left: 63%;
+      }
     }
 
     &--p3 {
-      left: 20%;
-      top: 10rem;
+      left: 38%;
+      top: 14rem;
+
+      @include respronse(phone) {
+        top: 0;
+        left: 0;
+        transform: translateY(2px);
+      }
+      @include respronse(tab-port) {
+        top: 43%;
+        left: 69%;
+      }
     }
 
     &:hover {

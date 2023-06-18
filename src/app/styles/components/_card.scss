@@ -37,6 +37,102 @@
       }
     }
   }
+
+  //queries
+  @include respronse(phone) {
+    &:hover &__side--front {
+      transform: none !important;
+    }
+    & {
+      height: fit-content;
+    }
+    &__side--back {
+      display: none;
+    }
+    &__side {
+      height: fit-content;
+      position: relative;
+    }
+
+    &__responsive {
+      display: block !important;
+      padding: 4rem 0;
+      padding-bottom: 4.5rem;
+      color: white;
+      margin-top: 2.5rem;
+      clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+      p.card__price-value {
+        font-size: 3.7rem;
+      }
+      p.card__price-only {
+        font-size: 1.2rem;
+      }
+      a.btn {
+        font-size: 1rem;
+      }
+      &--1 {
+        background: $gradient-orange;
+      }
+      &--2 {
+        background: $gradient-green;
+      }
+      &--3 {
+        background: $gradient-blue;
+      }
+    }
+
+    .responsive__button {
+      display: block !important;
+    }
+  }
+  @include respronse(tab-port) {
+    &:hover &__side--front {
+      transform: none !important;
+    }
+    & {
+      height: fit-content;
+    }
+    &__side--back {
+      display: none;
+    }
+    &__side {
+      height: fit-content;
+      position: relative;
+    }
+
+    &__responsive {
+      display: block !important;
+      padding: 4rem 0;
+      padding-bottom: 5rem;
+      color: white;
+      margin-top: 2.5rem;
+      clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+      p.card__price-value {
+        font-size: 4rem;
+      }
+      p.card__price-only {
+        font-size: 1.3rem;
+      }
+      a.btn {
+        font-size: 1.2rem;
+      }
+      &--1 {
+        background: $gradient-orange;
+      }
+      &--2 {
+        background: $gradient-green;
+      }
+      &--3 {
+        background: $gradient-blue;
+      }
+    }
+
+    .responsive__button {
+      display: block !important;
+    }
+  }
+
+  //
   &:hover &__side--front {
     transform: rotateY(180deg);
   }
@@ -121,5 +217,26 @@
   &__price-value {
     font-size: 5rem;
     font-weight: 100;
+  }
+
+  //responsive=styles{
+  &__responsive {
+    display: none;
+  }
+}
+
+.responsive__button {
+  display: none;
+
+  @include respronse(phone) {
+    & {
+      display: inline-block;
+    }
+  }
+
+  @include respronse(tab-port) {
+    & {
+      display: inline-block;
+    }
   }
 }

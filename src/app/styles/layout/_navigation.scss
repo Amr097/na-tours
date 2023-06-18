@@ -11,6 +11,11 @@
 
     cursor: pointer;
 
+    @include respronse(phone) {
+      top: 4.5rem;
+      right: 5.6rem;
+    }
+
     &:checked ~ .navigation__background {
       transform: scale(90);
       z-index: 240;
@@ -45,6 +50,10 @@
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
     text-align: center;
     cursor: pointer;
+
+    @include respronse(phone) {
+      top: 4rem;
+    }
   }
   &__background {
     position: fixed;
@@ -57,6 +66,10 @@
     border-radius: 50%;
     z-index: 240;
     transition: all 0.5s cubic-bezier(0.85, 0, 0.15, 1);
+
+    @include respronse(phone) {
+      top: 4.5rem;
+    }
   }
   &__nav {
     position: fixed;
@@ -93,7 +106,7 @@
         rgba(255, 255, 255, 0) 50%,
         white 55%
       );
-      background-size: 220%;
+      background-size: 225%;
       display: inline-block;
       padding: 0.2rem 1rem;
       margin: 0.3rem 0;

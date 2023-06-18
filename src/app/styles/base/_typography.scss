@@ -8,6 +8,16 @@
   color: transparent;
   letter-spacing: 2px;
   transition: all 0.2s linear;
+  @include respronse(phone) {
+    font-size: 2.5rem;
+    letter-spacing: 1.3px;
+  }
+  @include respronse(tab-port) {
+    font-size: 2.7rem;
+  }
+  @include respronse(tab-land) {
+    font-size: 3.3rem;
+  }
 
   &:hover {
     transform: skewY(1deg) skewX(2deg) scale(1.05);
@@ -19,11 +29,26 @@
   font-size: 1.6rem;
   font-weight: 700;
   text-transform: uppercase;
+  @include respronse(phone) {
+    font-size: 2rem;
+  }
+  @include respronse(tab-land) {
+    font-size: 1.8rem;
+  }
 }
 
 .paragraph {
   font-size: 1.6rem;
   &:not(:last-child) {
     margin-bottom: 3.5rem;
+    @include respronse(phone) {
+      margin-bottom: 4.5rem;
+    }
+  }
+  @include respronse(phone) {
+    font-size: 2.3rem;
+  }
+  @include respronse(tab-land) {
+    font-size: 1.5rem;
   }
 }

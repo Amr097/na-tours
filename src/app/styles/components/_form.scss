@@ -52,6 +52,14 @@
   &__radio-group {
     width: 50%;
     display: inline-block;
+
+    @include respronse(phone) {
+      width: fit-content;
+
+      &:not(:last-child) {
+        padding-bottom: 1.5rem;
+      }
+    }
   }
   &__radio-input {
     opacity: 0;
