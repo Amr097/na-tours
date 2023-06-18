@@ -9,11 +9,13 @@ const PopupBooking = () => {
             src="./img/nat-8.jpg"
             alt="Tour photo"
             className="popup__image"
+            loading="lazy"
           />
           <img
             src="./img/nat-9.jpg"
             alt="Tour photo"
             className="popup__image"
+            loading="lazy"
           />
         </div>
         <div className="popup__right">

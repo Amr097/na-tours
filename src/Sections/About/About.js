@@ -42,16 +42,19 @@ const About = () => {
               src="./img/nat-1-large.jpg"
               alt="nature"
               className="composition__photo composition__photo--p1"
+              loading="lazy"
             />
             <img
               src="./img/nat-2-large.jpg"
               alt="nature"
               className="composition__photo composition__photo--p2"
+              loading="lazy"
             />
             <img
               src="./img/nat-3-large.jpg"
               alt="nature"
               className="composition__photo composition__photo--p3"
+              loading="lazy"
             />
           </div>
         </div>

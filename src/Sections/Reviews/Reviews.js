@@ -4,7 +4,7 @@ const Reviews = () => {
   return (
     <section id="reviews" className="section-reviews">
       <div className="bg-video">
-        <video className="bg-video__content" loop autoPlay muted>
+        <video className="bg-video__content" loop autoPlay muted playsinline>
           <source src="./img/video.mp4" type="video/mp4" />
           <source src="./img/video.webm" type="video/webm" />
         </video>
@@ -16,7 +16,12 @@ const Reviews = () => {
       <div className="row">
         <div className="review u-center">
           <figure className="review__shape">
-            <img src="./img/nat-8.jpg" alt="" className="review__shape-img" />
+            <img
+              src="./img/nat-8.jpg"
+              alt=""
+              className="review__shape-img"
+              loading="lazy"
+            />
             <figcaption className="review__shape-caption">Mary Jane</figcaption>
           </figure>
           <div className="review__text">
@@ -33,7 +38,12 @@ const Reviews = () => {
         </div>
         <div className="review u-center">
           <figure className="review__shape">
-            <img src="./img/nat-9.jpg" alt="" className="review__shape-img" />
+            <img
+              src="./img/nat-9.jpg"
+              alt=""
+              className="review__shape-img"
+              loading="lazy"
+            />
             <figcaption className="review__shape-caption">
               Peter Parker
             </figcaption>

@@ -4,7 +4,12 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__logo-box u-margin-bottom-medium">
-        <img src="img/logo-green-1x.png" className="footer__logo" alt="" />
+        <img
+          src="img/logo-green-1x.png"
+          className="footer__logo"
+          alt=""
+          loading="lazy"
+        />
       </div>
       <div className="row">
         <div className="col-1-of-2">
