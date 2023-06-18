@@ -39,7 +39,7 @@ const PopupBooking = () => {
             incidunt fuga omnis totam sapiente quae recusandae nisi assumenda
             qui?
           </p>
-          <a href="" className="btn btn--green u-margin-top-medium">
+          <a href="#booking" className="btn btn--green u-margin-top-medium">
             Book Now
           </a>
         </div>

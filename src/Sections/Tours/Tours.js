@@ -33,7 +33,7 @@ const Tours = () => {
                       href="#popup"
                       className="btn btn--white u-margin-top-small"
                     >
-                      book now!
+                      Click Me!
                     </a>
                   </div>
                 </div>
@@ -46,7 +46,7 @@ const Tours = () => {
                     href="#popup"
                     className="btn btn--white card__side--back--btn"
                   >
-                    book now!
+                    Click Me!
                   </a>
                 </div>
               </div>
@@ -77,7 +77,7 @@ const Tours = () => {
                       href="#popup"
                       className="btn btn--white u-margin-top-small"
                     >
-                      book now!
+                      Click Me!
                     </a>
                   </div>
                 </div>
@@ -90,7 +90,7 @@ const Tours = () => {
                     href="#popup"
                     className="btn btn--white card__side--back--btn"
                   >
-                    book now!
+                    Click Me!
                   </a>
                 </div>
               </div>
@@ -121,7 +121,7 @@ const Tours = () => {
                       href="#popup"
                       className="btn btn--white u-margin-top-small"
                     >
-                      book now!
+                      Click Me!
                     </a>
                   </div>
                 </div>
@@ -134,7 +134,7 @@ const Tours = () => {
                     href="#popup"
                     className="btn btn--white card__side--back--btn"
                   >
-                    book now!
+                    Click Me!
                   </a>
                 </div>
               </div>

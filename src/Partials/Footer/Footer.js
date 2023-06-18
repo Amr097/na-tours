@@ -47,9 +47,9 @@ const Footer = () => {
           <p className="footer__copyright">
             Built By{" "}
             <a href="" className="footer__link">
-              &nbsp;Amr Abdelghany&nbsp;
+              Amr Abdelghany&nbsp;
             </a>
-            Practicing CSS
+            Practicing
             <a href="" className="footer__link">
               &nbsp; Advanced CSS and Sass Course by Jonas Schmedtmann&nbsp;
             </a>
