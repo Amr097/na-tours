@@ -1,58 +1,58 @@
 .main-animation {
-    animation-name: toLeftAnimation;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
+  animation-name: toLeftAnimation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.sub-animation {
+  animation-name: toRightAnimation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.btn-animation {
+  animation: toTopAnimation 0.7s ease-in-out 0.85s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes toLeftAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-12rem);
   }
-  
-  .sub-animation {
-    animation-name: toRightAnimation;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
+  60% {
+    transform: translateX(2rem);
   }
-  
-  .btn-animation {
-    animation: toTopAnimation 0.7s ease-in-out 0.85s;
-    animation-fill-mode: backwards;
+  100% {
+    opacity: 1;
+    transform: translate(0);
   }
-  
-  @keyframes toLeftAnimation {
-    0% {
-      opacity: 0;
-      transform: translateX(-12rem);
-    }
-    60% {
-      transform: translateX(2rem);
-    }
-    100% {
-      opacity: 1;
-      transform: translate(0);
-    }
+}
+
+@keyframes toRightAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(6rem);
   }
-  
-  @keyframes toRightAnimation {
-    0% {
-      opacity: 0;
-      transform: translateX(12rem);
-    }
-    60% {
-      transform: translateX(-2rem);
-    }
-    100% {
-      opacity: 1;
-      transform: translate(0);
-    }
+  60% {
+    transform: translateX(-1.3rem);
   }
-  
-  @keyframes toTopAnimation {
-    0% {
-      opacity: 0;
-      transform: translateY(12rem);
-    }
-    60% {
-      transform: translateY(-2rem);
-    }
-    100% {
-      opacity: 1;
-      transform: translate(0);
-    }
-  } 
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes toTopAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(12rem);
+  }
+  60% {
+    transform: translateY(-2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

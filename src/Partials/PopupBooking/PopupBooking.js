@@ -40,7 +40,7 @@ const PopupBooking = () => {
             qui?
           </p>
           <a href="#booking" className="btn btn--green u-margin-top-medium">
-            Book Now
+            Book Now!
           </a>
         </div>
       </div>
