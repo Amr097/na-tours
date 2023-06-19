@@ -5,7 +5,7 @@ export const metadata = {
   title: "NA Tours",
   description: "...",
   icons: {
-    icon: "./img/vecteezy_letter-n-alphabet-natural-green-icons-leaf-logo_.jpg",
+    icon: "./img/favicon.webp",
   },
 };
 

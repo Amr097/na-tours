@@ -148,13 +148,13 @@
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
     &--1 {
-      background-image: $gradient-orange-opacity, url(/img/nat-5.jpg);
+      background-image: $gradient-orange-opacity, url(/img/nat-5.webp);
     }
     &--2 {
-      background-image: $gradient-green-opacity, url(/img/nat-6.jpg);
+      background-image: $gradient-green-opacity, url(/img/nat-6.webp);
     }
     &--3 {
-      background-image: $gradient-blue-opacity, url(/img/nat-7.jpg);
+      background-image: $gradient-blue-opacity, url(/img/nat-7.webp);
     }
   }
 

@@ -17,7 +17,7 @@ const Reviews = () => {
         <div className="review u-center">
           <figure className="review__shape">
             <img
-              src="./img/nat-8.jpg"
+              src="./img/nat-8.webp"
               alt=""
               className="review__shape-img"
               loading="lazy"
@@ -39,7 +39,7 @@ const Reviews = () => {
         <div className="review u-center">
           <figure className="review__shape">
             <img
-              src="./img/nat-9.jpg"
+              src="./img/nat-9.webp"
               alt=""
               className="review__shape-img"
               loading="lazy"

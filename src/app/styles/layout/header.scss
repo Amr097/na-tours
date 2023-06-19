@@ -10,12 +10,20 @@
         $light-green-opacity,
         $dark-green-opacity
       ),
-      url(/img/hero.jpg);
+      url(/img/hero-small.webp);
     background-size: cover;
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     position: relative;
 
+    @media (min-resolution: 192dpi) and (min-width: 41.5em), (width>121em) {
+      background-image: linear-gradient(
+          to right bottom,
+          $light-green-opacity,
+          $dark-green-opacity
+        ),
+        url(/img/hero.webp);
+    }
     @include respronse(phone) {
       clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     }

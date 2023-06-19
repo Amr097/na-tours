@@ -4,12 +4,18 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__logo-box u-margin-bottom-medium">
-        <img
-          src="img/logo-green-1x.png"
-          className="footer__logo"
-          alt=""
-          loading="lazy"
-        />
+        <picture className="footer__logo">
+          <source
+            srcSet="img/logo-green-small-1x.webp 1x, img/logo-green-small-2x.webp 2x"
+            src="img/logo-green-small-1x.webp"
+            media="(max-width: 41.5em)"
+          />
+          <img
+            srcSet="img/logo-green-1x.webp 1x, img/logo-green-2x.webp 2x"
+            alt="footer"
+            loading="lazy"
+          />
+        </picture>
       </div>
       <div className="row">
         <div className="col-1-of-2">

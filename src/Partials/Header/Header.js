@@ -4,7 +4,7 @@ export default function Header({ inView }) {
       <div className="header__container">
         <div className="header__logo-box">
           <img
-            src="/img/logo-white.png"
+            src="/img/logo-white.webp"
             alt="Logo"
             className="header__logo"
           ></img>
