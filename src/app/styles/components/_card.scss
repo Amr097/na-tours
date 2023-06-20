@@ -12,6 +12,7 @@
     height: 100%;
     border-radius: 4px;
     overflow: hidden;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     box-shadow: $box-shadow-default;
 
@@ -85,7 +86,9 @@
       display: block !important;
     }
   }
-  @include respronse(tab-port) {
+
+  @media only screen and (41.5em < width <= 61em),
+    only screen and (hover: none) {
     &:hover &__side--front {
       transform: none !important;
     }
@@ -130,6 +133,8 @@
     .responsive__button {
       display: block !important;
     }
+  }
+  @include respronse(tab-port) {
   }
 
   //

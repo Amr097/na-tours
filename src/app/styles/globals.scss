@@ -74,4 +74,8 @@ a {
 main {
   background-color: $gray-light;
 }
-//btns
+
+::selection {
+  background-color: $light-green;
+  color: white;
+}

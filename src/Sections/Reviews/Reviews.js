@@ -4,7 +4,7 @@ const Reviews = () => {
   return (
     <section id="reviews" className="section-reviews">
       <div className="bg-video">
-        <video className="bg-video__content" loop autoPlay muted playsinline>
+        <video className="bg-video__content" loop autoPlay muted playsInline>
           <source src="./img/video.mp4" type="video/mp4" />
           <source src="./img/video.webm" type="video/webm" />
         </video>

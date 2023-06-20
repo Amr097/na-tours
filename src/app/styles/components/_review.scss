@@ -49,13 +49,21 @@
   }
 
   &__shape {
-    width: 10rem;
-    height: 10rem;
-    shape-outside: circle(50% at 50% 50%);
-    clip-path: circle(50% at 50% 50%);
+    width: 12rem;
+    height: 12rem;
+    overflow: hidden;
     float: left;
     transform: translateX(-3rem) skewX(12deg);
+    border-radius: 50%;
     position: relative;
+
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+      shape-outside: circle(50% at 50% 50%);
+      clip-path: circle(50% at 50% 50%);
+      -webkit-shape-outside: circle(50% at 50% 50%);
+      -webkit-clip-path: circle(50% at 50% 50%);
+      border-radius: none;
+    }
 
     &-img {
       height: 100%;

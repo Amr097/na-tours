@@ -3,6 +3,7 @@ import React from "react";
 const PopupBooking = () => {
   return (
     <div className="popup" id="popup">
+      <a href="#tours" className="popup__exit"></a>
       <div className="popup__content">
         <div className="popup__left">
           <img

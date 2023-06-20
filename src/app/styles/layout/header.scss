@@ -1,6 +1,5 @@
 .header {
   width: 100%;
-  height: 100%;
   z-index: 1;
   background-color: $gray-light;
   &__container {
@@ -13,10 +12,15 @@
       url(/img/hero-small.webp);
     background-size: cover;
     background-position: top;
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+
     position: relative;
 
-    @media (min-resolution: 192dpi) and (min-width: 41.5em), (width>121em) {
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+      clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    }
+    @media (min-resolution: 192dpi) and (min-width: 41.5em),
+      (-webkit-min-device-pixel-ratio: 2) and (min-width: 41.5em),
+      (width>121em) {
       background-image: linear-gradient(
           to right bottom,
           $light-green-opacity,

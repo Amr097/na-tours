@@ -39,7 +39,7 @@ const About = () => {
         <div className="col-1-of-2">
           <div className="composition">
             <img
-              srcset="./img/nat-1-large.webp 1000w, ./img/nat-1.webp 300w"
+              srcSet="./img/nat-1-large.webp 1000w, ./img/nat-1.webp 300w"
               src="./img/nat-1-large.webp"
               alt="nature"
               className="composition__photo composition__photo--p1"
@@ -47,7 +47,7 @@ const About = () => {
               sizes="(max-width: 980px) 20vw, (max-width:665px) 10vw, 250px"
             />
             <img
-              srcset="./img/nat-2-large.webp 1000w, ./img/nat-2.webp 300w"
+              srcSet="./img/nat-2-large.webp 1000w, ./img/nat-2.webp 300w"
               src="./img/nat-2-large.webp"
               alt="nature"
               className="composition__photo composition__photo--p2"
@@ -55,7 +55,7 @@ const About = () => {
               loading="lazy"
             />
             <img
-              srcset="./img/nat-3-large.webp 1000w, ./img/nat-3.webp 300w"
+              srcSet="./img/nat-3-large.webp 1000w, ./img/nat-3.webp 300w"
               src="./img/nat-2-large.webp"
               alt="nature"
               className="composition__photo composition__photo--p3"
