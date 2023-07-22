@@ -1,4 +1,4 @@
-# My Personal Portfolio
+# NA-Tours
 
 Na-tours Website Built with Nextjs & Scss as a part of Jonas advanced CSS and Sass course.
 
