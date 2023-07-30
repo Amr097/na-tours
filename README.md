@@ -9,10 +9,15 @@ This project is simply me practicing how to build modern beautiful UIs with Scss
 ## Features
 
 1- Responsive to all screen sizes.
+
 2- Used responsive images to serve the right images to the right screen sizes/resolutions.
+
 2- Images and videos are lazy loaded for better performance and less loading time.
+
 3- Added media queries to replace hover effects on mobile screens with more-fitting visuals.
+
 4- Tested most of the CSS properties for browser compatibility and wrote media queries to change elements styles in case a certain property is not supported.
+
 
 ## Take a look?
 
